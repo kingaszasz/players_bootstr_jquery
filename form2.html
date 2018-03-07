@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/kingaStyle.css" rel="stylesheet" type="text/css">
+
+    <link href="../bootstrap3/fonts/glyphicons-halflings-regular.woff2" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Players data</h1>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>Admin</h1>
+            </div>
+        
+
+        <div class="panel-body">
+            <form class="form-group">
+                <div class="col-xs-12 col-sm-3 col-lg-4 form-group">
+                    <label>Name</label>
+                    <input class="form-control" type="text" placeholder="Name">
+                </div>
+                <div class="col-xs-12 col-sm-3 col-lg-4 form-group">
+                    <label>Birthdate</label>
+                    <input class="form-control" type="date">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-3 form-group">
+                    <label>Photo</label>
+                    <label class="radio-inline">
+                        <input type="radio" name="photo" id="photoY" value="yes" checked> Yes
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="photo" id="photoN" value="no"> No
+                    </label>
+                </div>
+            </form>
+            <form class="form-group">
+                <div class="col-xs-12 col-lg-8 form-group">
+                    <label>Biography</label>
+                    <textarea class="form-control" name="bio" rows="4" id="bio" placeholder="Biography"></textarea>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 form-group">
+                    <label>Speciality</label>
+                    <input class="form-control" type="text" placeholder="Speciality">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 form-group">
+                    <label>Pozition</label>
+                    <input class="form-control" type="text" value="Defender">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>Number</label>
+                    <input class="form-control" type="number" placeholder="10">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>Caps</label>
+                    <input class="form-control" type="number" placeholder="100">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>Goals</label>
+                    <input class="form-control" type="number" placeholder="100">
+                </div>
+                <div class="col-xs-12 col-sm-8 col-lg-6 form-group">
+                    <label>Club</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-xs-12 col-sm-8 col-lg-6 form-group">
+                    <label>Ligue</label>
+                    <input class="form-control" type="text" value="National Championship (Hungary)">
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>1. rating match</label>
+                    <input class="form-control" type="number">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>2. rating match</label>
+                    <input class="form-control" type="number">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2 form-group">
+                    <label>3. rating match</label>
+                    <input class="form-control" type="number">
+                </div>
+
+            
+
+            </form>
+
+        </div>
+        <div class="panel panel-footer">
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn btn-primary col-xs-6 col-sm-4 col-lg-2 pull-right">Save</button>
+                    <button type="button" class="btn btn-default col-xs-6 col-sm-4 col-lg-2 pull-right">Delete</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    </div>
+    <div>&nbsp;</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/tablazat.js"></script>
+</body>
+
+</html>
